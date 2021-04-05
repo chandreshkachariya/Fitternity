@@ -1,0 +1,6 @@
+framework module Pods_Fitternity {
+  umbrella header "Pods-Fitternity-umbrella.h"
+
+  export *
+  module * { export * }
+}
