@@ -45,6 +45,8 @@
 		CC8C726F26198F7700AF66A3 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC8C725426198F7600AF66A3 /* Montserrat-SemiBoldItalic.ttf */; };
 		CC8C727026198F7700AF66A3 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC8C725526198F7600AF66A3 /* Montserrat-ExtraBoldItalic.ttf */; };
 		CC8C727126198F7700AF66A3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C725626198F7600AF66A3 /* Helper.swift */; };
+		CCB31400261C280F0017112F /* UpcomingClassesCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB313FE261C280F0017112F /* UpcomingClassesCVCell.swift */; };
+		CCB31401261C280F0017112F /* UpcomingClassesCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB313FF261C280F0017112F /* UpcomingClassesCVCell.xib */; };
 		CCC648A1261B16540084ABB6 /* WorkoutInStudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC648A0261B16540084ABB6 /* WorkoutInStudioVC.swift */; };
 		CCC648A6261B16720084ABB6 /* WorkoutAtHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC648A5261B16720084ABB6 /* WorkoutAtHomeVC.swift */; };
 		CCC648AD261B1D1B0084ABB6 /* TagsCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC648AB261B1D1B0084ABB6 /* TagsCVCell.swift */; };
@@ -133,6 +135,8 @@
 		CC8C725426198F7600AF66A3 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		CC8C725526198F7600AF66A3 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		CC8C725626198F7600AF66A3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CCB313FE261C280F0017112F /* UpcomingClassesCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingClassesCVCell.swift; sourceTree = "<group>"; };
+		CCB313FF261C280F0017112F /* UpcomingClassesCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingClassesCVCell.xib; sourceTree = "<group>"; };
 		CCC648A0261B16540084ABB6 /* WorkoutInStudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutInStudioVC.swift; sourceTree = "<group>"; };
 		CCC648A5261B16720084ABB6 /* WorkoutAtHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAtHomeVC.swift; sourceTree = "<group>"; };
 		CCC648AB261B1D1B0084ABB6 /* TagsCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsCVCell.swift; sourceTree = "<group>"; };
@@ -313,6 +317,8 @@
 				CCC648AC261B1D1B0084ABB6 /* TagsCVCell.xib */,
 				CCC648E0261B2FE10084ABB6 /* CategoriesCVCell.swift */,
 				CCC648E1261B2FE10084ABB6 /* CategoriesCVCell.xib */,
+				CCB313FE261C280F0017112F /* UpcomingClassesCVCell.swift */,
+				CCB313FF261C280F0017112F /* UpcomingClassesCVCell.xib */,
 			);
 			path = "CollectionView Cell";
 			sourceTree = "<group>";
@@ -479,6 +485,7 @@
 				CC8C726E26198F7700AF66A3 /* Montserrat-Italic.ttf in Resources */,
 				CC8C726026198F7700AF66A3 /* Montserrat-Medium.ttf in Resources */,
 				CC8C720626198A4700AF66A3 /* Main.storyboard in Resources */,
+				CCB31401261C280F0017112F /* UpcomingClassesCVCell.xib in Resources */,
 				CC8C726426198F7700AF66A3 /* Montserrat-ExtraLight.ttf in Resources */,
 				CC8C726C26198F7700AF66A3 /* Montserrat-Black.ttf in Resources */,
 				CC8C727026198F7700AF66A3 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
@@ -632,6 +639,7 @@
 				CCC648E2261B2FE10084ABB6 /* CategoriesCVCell.swift in Sources */,
 				CC8C727126198F7700AF66A3 /* Helper.swift in Sources */,
 				CCC648BF261B28C10084ABB6 /* CategoriesTVCell.swift in Sources */,
+				CCB31400261C280F0017112F /* UpcomingClassesCVCell.swift in Sources */,
 				CCC648D4261B29D40084ABB6 /* FitnessCentresTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

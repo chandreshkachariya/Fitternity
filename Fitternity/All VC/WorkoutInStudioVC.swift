@@ -185,6 +185,8 @@ extension WorkoutInStudioVC: UITableViewDataSource, UITableViewDelegate {
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifierUpcomingClassesTVCell, for: indexPath) as! UpcomingClassesTVCell
 
+                cell.updateCell(dictUpcomingClasses: (dictStudioData.value(forKey: upcoming_classes) as? NSDictionary ?? NSDictionary()))
+
                 return cell
             }else {
                 

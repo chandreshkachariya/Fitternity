@@ -30,8 +30,8 @@
             filePath = "Fitternity/All VC/WorkoutAtHomeVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "callApiForGetHomeWorkoutAtHome()"
             landmarkType = "7">
             <Locations>

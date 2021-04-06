@@ -229,13 +229,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hX7-RJ-Vq6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="646"/>
+                                <rect key="frame" x="0.0" y="8" width="414" height="638"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hX7-RJ-Vq6" firstAttribute="top" secondItem="RB9-8d-Rdy" secondAttribute="top" id="PYB-ru-NO0"/>
+                            <constraint firstItem="hX7-RJ-Vq6" firstAttribute="top" secondItem="RB9-8d-Rdy" secondAttribute="top" constant="8" id="PYB-ru-NO0"/>
                             <constraint firstItem="hX7-RJ-Vq6" firstAttribute="leading" secondItem="RB9-8d-Rdy" secondAttribute="leading" id="atm-Rc-odB"/>
                             <constraint firstAttribute="trailing" secondItem="hX7-RJ-Vq6" secondAttribute="trailing" id="fnR-W3-BnW"/>
                             <constraint firstAttribute="bottom" secondItem="hX7-RJ-Vq6" secondAttribute="bottom" id="yvI-XO-hb5"/>
@@ -256,12 +256,27 @@
                     <view key="view" contentMode="scaleToFill" id="wcK-gk-ycM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="646"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemFillColor"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2Ec-oN-ni1">
+                                <rect key="frame" x="0.0" y="8" width="414" height="638"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2Ec-oN-ni1" secondAttribute="trailing" id="V2p-Ew-3Dk"/>
+                            <constraint firstItem="2Ec-oN-ni1" firstAttribute="top" secondItem="wcK-gk-ycM" secondAttribute="top" constant="8" id="djE-hm-l15"/>
+                            <constraint firstItem="2Ec-oN-ni1" firstAttribute="leading" secondItem="wcK-gk-ycM" secondAttribute="leading" id="tXA-od-gSC"/>
+                            <constraint firstAttribute="bottom" secondItem="2Ec-oN-ni1" secondAttribute="bottom" id="vBh-F4-B3v"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tblView" destination="2Ec-oN-ni1" id="UWE-W6-zU8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PoV-2N-Qzi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1372" y="1440"/>
+            <point key="canvasLocation" x="1371.0144927536232" y="1439.7321428571429"/>
         </scene>
     </scenes>
     <resources>
@@ -272,9 +287,6 @@
         <image name="ic_studio_green" width="21" height="21"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemFillColor">
-            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
